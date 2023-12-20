@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bulb.css">
+    </head>
+    <body>
+        <img alt="" src="images/off.png" style="height: 300px; width: 200px" id="imgClickAndChange" onclick="changeImage()"/>
+        <button class="ram" onclick="on()">ON THE BULB</button>
+        <button class="ram" onclick="off()">OFF THE BULB</button>
+    </body>
+    <script>
+        const on=()=> document.getElementById("imgClickAndChange").src="images/on.png"
+        const off=()=> document.getElementById("imgClickAndChange").src="images/off.png"
+    </script>
+</html>
